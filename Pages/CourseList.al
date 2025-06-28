@@ -25,10 +25,7 @@ page 50101 CourseList
                 {
 
                 }
-                field(Price; Rec.Price)
-                {
 
-                }
                 field(Instructor; Rec.Instructor)
                 {
 
@@ -40,6 +37,10 @@ page 50101 CourseList
                 field(Email; Rec.Email) { }
                 field(URL; Rec.URL) { }
                 field(AvgPrice; Rec.AvgPrice) { }
+                field(Price; Rec.Price)
+                {
+
+                }
 
 
             }
@@ -91,7 +92,7 @@ page 50101 CourseList
 
                     //   Message('The 3rd element in array is %1', myarray1[3]);
 
-                    list1.Add('vijay');
+                    list1.Add('vijay ab');
                     list1.Add('taofik');
                     list1.Add('john');
                     list1.Add('taofik');
